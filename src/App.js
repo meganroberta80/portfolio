@@ -1,40 +1,14 @@
+import Nav from './components/Nav'
 import './App.css';
-import { Switch, Route } from 'react-router-dom'
-import Contact from './components/Contact'
-import Header from './components/Header'
-import About from './components/About'
-import Projects from './components/Projects';
-import Resume from './components/Resume';
 
 function App() {
-    return (
-        <div className="App">
-            <Header />
-
-            <body>
-                <Switch>
-
-                    <Route path='/about' exact component={About}>
-                        <About />
-                    </Route>
-                    
-                    <Route path='/projects' exact component={Projects}>
-                        <Projects />
-                    </Route>
-
-                    <Route path='/resume' exact component={Resume}>
-                        <Resume />
-                    </Route>
-
-                    <Route path='/contact' exact component={Contact}>
-                        <Contact />
-                    </Route>
-
-                </Switch>
-            </body>
-
-        </div>
-    );
+  return (
+    <div>
+      <Nav />
+        <h1>Hi, I'm Megan</h1>
+        <p>As a veteran with a background in military intelligence, I have a strong work ethic, excellent organizational skills, and a keen eye for detail. I specialize in full-stack Javascript technologies (MERN stack) and am looking for opportunities to learn from other conscientious software engineers. </p>
+    </div>
+  );
 }
 
 export default App;
