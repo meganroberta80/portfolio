@@ -29,6 +29,12 @@ h1 {
 
 h2 {
   font-family: 'Playfair Display', serif;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5em;
 }
 
 a {
@@ -95,30 +101,14 @@ input[type="text"] {
 
 
 /* LIST STYLES  */
-ul {
-  margin: 0;
-  list-style: none;
-  padding-left: 0;
-}
 
-li {
-  color: #95a5a6;
-  display: block;
-  float: right;
-  font-size: 1em;
-  font-weight: bold;
-  line-height: 2;
-  margin-left: 2em;
-  padding: 1.2em 0;
-  text-decoration: none;
-}
 
 /* CSS FOR IMAGES */
 
 
 /* HOME PAGE */
-.homePage {
-  align-items: center;
+.home-page {
+  align-items: left;
   width: 100%;
   height: 100vh;
   background-position: center;
@@ -126,20 +116,15 @@ li {
   padding-left: 8%;
   padding-right: 8%;
   box-sizing: border-box;
+  text-align: left;
+}
+
+.contact {
   text-align: center;
 }
 
-.homepageImages {
-  display: flex;
-  justify-content: space-evenly;
-  margin-right:10px;
-  margin-left:10px;
-  max-height: 400px;
-  min-width: 40%;
-}
-
 /* PROJECTS PAGE */
-.projectsPage {
+/* .projectsPage {
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -163,11 +148,10 @@ li {
   align-items: center;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-around; */
-}
+} */
 
 /* CONTACT PAGE */
-.contactPage {
+/* .contactPage {
   align-items: center;
   width: 100%;
   height: 100vh;
@@ -177,10 +161,17 @@ li {
   padding-right: 8%;
   box-sizing: border-box;
   text-align: center;
-}
+} */
 
-/* RESUME PAGE  */
+/* RESUME PAGE */
 
 
 /* CAROUSEL */
 
+
+/* COLORS */
+/* Nougat #DC9C74
+Cappucino #EBC6A9
+Cream White #FFFBF1
+Manila Green #6C8054
+Venom #DOF3A5  */
